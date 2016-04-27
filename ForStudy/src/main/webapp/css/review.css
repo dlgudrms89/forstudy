@@ -1,0 +1,48 @@
+p {
+  font-size: 0.9em;
+  color: #444;
+  line-height: 1.3em;
+}
+a {
+  text-decoration: none;
+}
+review-title{
+   color:#ffffff;
+}
+/*
+ * PAGE CONTENT STYLES
+ */
+.content {
+    top: 75px;
+    width: 60%;
+    height: 0px;
+    float: left;
+    margin-top: 0px;
+}
+.review {
+    background-color: #008080;
+    margin-bottom: 10px;
+    margin-left: -419px;
+    margin-top: -10px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 20px 5px;
+    box-shadow: 5px 5px 5px #AAAAAA;
+    border-radius: 20px;
+}
+.review:hover {
+  border-color: gainsboro;
+  background: #00cccc;
+}
+.review-title {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gainsboro;
+}
+.review a {
+  text-decoration: none;
+}
+.review-archive-read-more {
+  display: block;
+  margin-top: 5px;
+}

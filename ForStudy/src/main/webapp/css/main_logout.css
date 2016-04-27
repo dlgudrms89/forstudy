@@ -1,0 +1,79 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+
+#logout h2 {
+  color:#00758f;
+  margin-left:12px;
+}
+
+
+#logout form {
+  position:relative;
+  margin: 15px;
+  width: 250px;
+  height: 100px;
+}
+
+#logout input {
+  padding: 16px;
+  border-radius:7px;
+  border:none;
+  background: #ffffff;
+  margin: 5px;
+  width: 180px;  
+  color:#00758f;
+  font-size:14px;
+  text-indent : 25px;
+  height: 35px;
+  font-weight: bold;
+
+}
+
+#logoutBtn {
+  float:right;
+  height: 80px;
+  width: 50px;
+  border: 0px;
+  background: #00758f;
+  border-radius:7px;
+  color:white;
+  font-size:20px;
+}
+
+#cd-cart-trigger {
+	position: relative;
+    top: 20px;
+    height: 20px;
+    padding: 0px;
+    width: 180px;
+    cursor: pointer;
+    border: 0px;
+  background: #00758f;
+  border-radius:7px;
+  color:white;
+   font-size:13px;	
+}
+
+#logout .inputPassIcon {
+  position:absolute;
+  top:70px;
+  left: 25px;
+  color:#f37c25;
+}
+
+
+

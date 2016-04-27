@@ -1,0 +1,30 @@
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+.user_count{
+	top: 375px;
+    right: 30px;
+	margin-top:10px;
+	margin-left:10px;
+	position: fixed;
+	z-index: 10;
+}
+.user_count_box {
+    top: 370px;
+    right: 10px;
+    width: 15%;
+    height: 58px;
+    position: fixed;
+    background: white;
+    box-shadow: 5px 5px 5px #AAAAAA;
+    font-family: 'hanna';
+    font-size: 20px;
+    border-radius: 5px;
+}
+.col_fourth { width: 100%; margin-bottom:10px; box-shadow: 5px 5px 5px #AAAAAA;}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.count_wrapper { width: 15%; height: 300px; margin: 30px auto; position: fixed; top: 415px; right: 10px;}
+.counter { background-color: #ffffff; padding: 10px 0; border-radius: 5px;}
+.count-title { font-family: 'hanna'; font-size: 30px; font-weight: normal;  margin-top: 5px; margin-bottom: 0; text-align: center; }
+.count-text { font-family: 'hanna'; font-size: 20px; font-weight: normal;  margin-top: 5px; margin-bottom: 0; text-align: center; }
+.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; text-align:center}

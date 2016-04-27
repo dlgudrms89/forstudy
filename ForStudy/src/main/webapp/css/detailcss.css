@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+	overflow-y:scroll; 
+}
+
+.container2 {
+  background: white;
+  width: 750px;
+  margin-top:-370px;
+  margin-left:290px;
+  border-radius: 20px;
+  position: relative;
+/*   box-shadow: -1px 15px 30px -6px #c4c4c4; */
+  box-shadow: 5px 5px 5px #AAAAAA;
+  height: 620px;
+/*   max-height: 100%; */
+	margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.shoe-details-left {
+  float: left;
+  background: #0ab4a7;
+  background: linear-gradient(#0ab4a7, #98faf2); 
+  width: 100px;
+  color: white;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 620px;
+  margin-bottom: 10px;
+}
+
+
+.shoe-details-right {
+    float: left;
+    width: 630px;
+    padding: 30px;
+    text-transform: uppercase;
+    position: relative;
+    left: 8px;
+    top: -10px;
+}
+.shoe-details-right .product-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.shoe-details-right .product-address {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.shoe-details-right .label {
+  background: #FF3F2A;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 7px;
+  font-size: 10px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.shoe-details-right .product-category {
+  margin: 5px 0 10px;
+  padding:2px;
+  font-size: 20px;
+}
+
+.shoe-details-right.btn{
+	
+	top:35px;
+	position:relative;
+}
+
+.shoe-details-right a.btn {
+  text-decoration: none;
+  background: #CCC;
+  color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  top: 35px;
+  position: relative;
+}
+
+.shoe-details-right a.btn:hover {
+  background: #d9d9d9;
+}
+.shoe-details-right a.btn-primary{
+  background: #00D3EF;
+  margin-right: 20px;
+  left: initial;
+  
+}
+
+.shoe-details-right a.btn-primary:hover {
+  background: #0ae2ff;
+}
+
+
+.close-button {
+    position: absolute;
+    right: 9px;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    font-size: 31px;
+    color: rgb(213, 228, 230);
+    background: rgb(6, 179, 202);
+    border-radius: 100%;
+    padding: 1px 0px 0px 11px;
+    box-shadow: -1px 3px 20px -6px #c4c4c4;
+    z-index: 5;
+}
+
+.close-button:hover {
+  background: #7af9fc;
+  color: #454545;
+  cursor: pointer;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+.containertable {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 140px;
+    left: 290px;
+    height: 264px;
+    width: 600px;
+    /* max-height: 100%; */
+    overflow-y: scroll;
+    position: relative;
+}
+.containertable table {
+  width: 580px;
+  height: 250px;
+/*   max-height :100%; */
+  
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+ 
+ 
+}
+.containertable th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  border-color: #AAAAAA;
+  border:1px solid #d4d4d4;
+  font: bold;
+  
+}
+
+.containertable th {
+  text-align: left;
+}
+.containertable thead th {
+  background-color: #429d8f;
+  color: #ffffff;
+}
+.containertable thead
+{
+	height:50px;
+}
+.containertable tbody tr {
+/*   height:100px; */
+}
+.containertable tbody tr:hover {
+  background-color: #81fae1;
+}
+.containertable tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    
+}
+.containertable tbody td {
+  position: relative;
+  
+}
+#btn-keep {
+  text-decoration: none;
+  background: #CCC;
+  color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  top: 35px;
+  left: 424px;
+  position: relative;
+}
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 23px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  top: 2px;
+  left: 0px;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control input:checked ~ .control__indicator {
+  background: #2aa1c0;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.cartcheck
+{
+	padding-left:38px;
+}
