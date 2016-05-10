@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+html{
+	overflow-y: scroll;
+	height: 1200px;
+}
+
+
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+.belt{
+	margin: 4% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 5000px;
+}
+#carousel{
+	margin-top: -380px;
+	width: 120%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 186px;
+	height: 116px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 2px #008080;
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+.best{
+	cursor: pointer;
+	transition: all .5s ease;
+	width: 100%;
+	height: 100%;
+}
+.best:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+.certification { background:#; border-bottom:1px solid #efefef;}
+.certification ul { overflow:hidden; padding:12px 0;}
+.certification ul li { float:left; margin-left:58px;}
+.certification ul li a { display:block;}
+.certification ul li:first-child { margin-left:0;}
+#globalFooter .g_inner {
+    position: absolute;
+    left: 120px;
+}
+.foot_logo { float:left; width:150px; padding-top:65px;}
+.foot_info { float:right; width:1000px; padding-top:10px;}
+.foot_group { overflow:hidden; padding-bottom:25px;}
+.foot_group li { float:left; margin-left:80px;}
+.foot_group li:first-child { margin-left:0;}
+.foot_link { overflow:hidden; margin-bottom:15px;}
+.foot_link li { float:left;}
+.foot_link li a { padding-left:10px; margin-left:9px; font-size:12px; color:#666; letter-spacing:-1px; font-weight:bold; font-family:'¸¼Àº °íµñ', Malgun gothic, µ¸¿ò, 'Dotum';}
+.foot_link li:first-child a { padding-left:0; margin-left:0; background:none;}
+.foot_link li.blue a { color:#27358f;}
+#globalFooter {
+    position: fixed;
+    bottom:-15px;
+    left: 275px;
+    width: 100%;
+    padding-bottom: 80px;
+    border-top: 4px solid #191919;
+    background: #fff;
+    box-shadow:5px 5px 5px #AAAAAA;
+}
+
+address { display:block; line-height:22px; font-size:12px; color:#888; letter-spacing:-1px; font-family:'¸¼Àº °íµñ', Malgun gothic, µ¸¿ò, 'Dotum';}
+address span { display:inline-block; padding:0 5px;}
+address p { margin-top:10px; font-weight:bold;}
+address p .copy { letter-spacing:0;}
+
+ul, ol {
+    list-style: none;
+}
+#q1{
+	position: relative;
+	top:-400px;
+	left: 340px;
+	color:#444;
+}
+#q2 {
+    position: relative;
+    top: -855px;
+    left: 55%;
+    color:#444;
+}
+
+
+
+#gesipan {
+	    padding: 20px;
+    font-family: hanna;
+    font-weight: 500;
+    position: relative;
+    top: -400px;
+    left: 340px;
+    margin-top: 12px;
+    width: 25%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 5px 5px 5px #AAAAAA;
+}
+#gesipan2 {
+    padding: 20px;
+    font-family: hanna;
+    font-weight: 500;
+    position: relative;
+    top: -860px;
+    left: 55%;
+    margin-top: 12px;
+    width: 25%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 5px 5px 5px #AAAAAA;
+}
+#gesipan:HOVER {
+	cursor:pointer;
+    background: #00c6c6;
+    box-shadow: 5px 5px 5px #AAAAAA;
+}
+#gesipan2:HOVER {
+	cursor:pointer;
+    background: #00c6c6;
+    box-shadow: 5px 5px 5px #AAAAAA;
+}
+#table_content2 {
+    border-collapse: collapse;
+    border-top-width: 2px;
+    width: 400px;
+    background: #fff;
+    box-shadow: 5px 5px 5px #AAAAAA;
+}
+
+
+

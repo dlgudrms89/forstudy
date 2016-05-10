@@ -1,0 +1,120 @@
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+
+#myChart {
+  cursor: crosshair;
+    
+}
+
+.skills-chart {
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.skills-chart-legend {
+  margin: 0 auto 15px
+}
+
+.skills-chart-canvas {
+  max-width: 500px;
+  margin: auto
+}
+
+.skills-chart-legend {
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em
+}
+
+.skills-chart-legend:before {
+  content: "";
+  display: block;
+  float: left;
+  margin: 3px 0 0 -15px;
+  height: 9px;
+  width: 9px
+}
+
+.skills-chart-legend--interest {
+  color: #2bb0d4
+}
+
+.skills-chart-legend--interest:before {
+  background: #2bb0d4
+}
+
+.skills-chart-legend--skill {
+  color: #61c191
+}
+
+.skills-chart-legend--skill:before {
+  background: #61c191
+}
+
+.chart {
+    font-family: 'hanna';
+    top: -310px;
+    left: 560px;
+    position: relative;
+}
+.chart .title {
+  fill: black;
+  font-size: 20px;
+}
+.chart .group rect {
+  fill: gray;
+  opacity:0;
+}
+.chart .group text {
+  fill: white;
+}
+.chart .bar1 {
+  fill: #a85920;
+}
+.chart .bar2 {
+  fill: #eb7d2f;
+}
+.chart .bar3 {
+  fill: #fcdcc5;
+}
+.chart .bar4 {
+  fill: #fac8a5;
+}
+.chart .bar5 {
+  fill: #f5f5f5;
+}
+.chart .bar6 {
+  fill: #b3b3b3;
+}
+.chart .bar7 {
+  fill: #8f8f8f;
+}
+.chart .bar-percentage {
+  font-size: 12px;
+}
+.chart [class^=bar-label] {
+  font-size: 12px;
+}
+.chart .bar-label1 {
+  fill: white;
+}
+.chart .bar-label7 {
+  fill: white;
+}
+.chart .axis {
+  fill: gray;
+}
+.chart .axis .tick.major text {
+  font-size: 10px;
+}
+
+.column-value{
+	opacity:0;
+}

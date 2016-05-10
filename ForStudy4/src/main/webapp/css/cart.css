@@ -1,0 +1,207 @@
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+.cart{
+	height:100%;
+	overflow-y: scroll;
+	top: 42px;
+}
+.chat {
+	position:fixed;
+  background: #ffffff;
+  width: 15%;
+  height:348px;
+	top:0.5%;
+	right:1%;
+	
+	box-shadow:5px 5px 5px #AAAAAA;
+}
+.chat header {
+    background: #008080;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Hanna';
+    position: absolute;
+    width: 100%;
+    height: 41px;
+}
+.chat header:before,
+.chat header:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.chat header h2,
+.chat .cart ul li .cart-con h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  float: left;
+}
+.chat header h2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.chat header .tools {
+  list-style: none;
+  margin: 14px;
+  padding: 0;
+  float: right;
+}
+.chat header .tools li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.chat header .tools li:last-child {
+  margin: 0;
+}
+.chat header .tools li a {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.chat .cart {
+    position: relative;
+    max-height: 88%;
+}
+.chat .cart .search {
+  display: none;
+  width: 100%;
+}
+.chat .cart .search.opened {
+  display: block;
+}
+.chat .cart .search input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  border: none;
+  -webkti-box-size: border-box;
+  -moz-box-size: border-box;
+  box-size: border-box;
+}
+.chat .cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #f2f2f2;
+}
+.chat .cart ul li {
+  position: relative;
+  background: #ffffff;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  height:120px;
+}
+.chat .cart ul li:before,
+.chat .cart ul li:after {
+  display: block;
+  cart-con: '';
+  clear: both;
+}
+.chat .cart ul li:hover {
+  background: #f0f0f0;
+}
+.chat .cart ul li:hover .thumbnail {
+  background: #bd6982;
+  height:70px;
+}
+.chat .cart ul li:nth-child(2n) {
+  background: #e2e2e2;
+  height:85px;
+}
+.chat .cart ul li .thumbnail {
+  display: inline;
+  background: #bfbfbf;
+  width: 50px;
+  color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s;
+  transition: background 0.3s linear 0s;
+}
+.chat .cart ul li .thumbnail img {
+  width: 100%;
+}
+.chat .cart ul li .cart-con {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: top;
+  line-height: 1;
+}
+.chat .cart ul li .cart-con h3 {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  color: #808080;
+}
+.chat .cart ul li .cart-con .preview {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 5px;
+  color: #cccccc;
+  font-size: 12px;
+}
+.chat .cart ul li .cart-con .meta {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.chat .cart ul li .cart-con .meta a {
+  color: #999999;
+  text-decoration: none;
+}
+.chat .cart ul li .cart-con .meta a:hover {
+  text-decoration: underline;
+}
+.chat .cart ul li .message {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#btn-del{
+  text-decoration: none;
+  background: #CCC;
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border-radius: 100%;
+  top: 55px;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  width:27px;
+  height:27px;
+}
+#btn-del:hover{
+	color:#026a5e;
+}
+#btn-com {
+    text-decoration: none;
+    background: #008080;
+    color: white;
+    padding: 10px 8px;
+    font-size: 16px;
+    top: -1px;
+    left: 0px;
+    position: absolute;
+    font-family: 'hanna';
+}
+#btn-com:hover{
+	background:#03bab0;
+	cursor: pointer;
+}

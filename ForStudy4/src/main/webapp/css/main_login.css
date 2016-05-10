@@ -1,0 +1,132 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+
+#login h2 {
+  color:#00758f;
+  margin-left:12px;
+}
+
+
+#login form {
+  position:relative;
+  margin: 15px;
+  width: 250px;
+  height: 100px;
+}
+
+#login input {
+  padding: 16px;
+  border-radius:7px;
+  border:1px;
+  border-color:#00758f;
+  background: #ffffff;
+  display: block;
+  margin: 5px;
+  width: 190px;  
+  color:#00758f;
+  font-size:14px;
+  text-indent : 25px;
+  height: 35px;
+  
+}
+
+#login input:focus {
+  outline-color: #00758f;
+  background: rgba(255,255,255,.95);
+  color: #e74c3c;
+}
+#cd-cart-trigger, #cd-cart-trigger2 {
+ margin-left: 30px;
+}
+
+#logBtn {
+  float:right;
+  height: 80px;
+  width: 60px;
+  border: 0px;
+  background: #00758f;
+  border-radius:7px;
+  color:white;
+  font-size:20px;
+}
+#logBtn:hover {
+	background: #21b6b3;
+	cursor:pointer;
+}
+#login .inputUserIcon {
+  position:absolute;
+  top:56px;
+  left: 20px;
+  color:#00758f;
+}
+#login .entypo-user {
+    color: #00758f;
+    position: absolute;
+    top: 75px;
+    left: 13px;
+}
+#login .entypo-rocket{
+	top:0px;
+}
+
+#login .inputPassIcon {
+    position: absolute;
+    top: 115px;
+    left: 15px;
+    color: #00758f;
+}
+
+#cd-cart-trigger {
+	
+	top : 120px;
+	width : 180px;
+	height: 20px;
+	border: 0px;
+	background: #00758f;
+	border-radius:7px;
+    color:white;
+    font-size:13px;		
+}
+
+#login input::-webkit-input-placeholder {
+  color: #555;
+}
+
+#login input:focus::-webkit-input-placeholder {
+  color: #00758f;
+}
+
+#mypage-trigger
+{
+	position: absolute;
+    top: 150px;
+    left: 126px;
+    height: 23px;
+    padding: 0px;
+    width: 97px;
+    right: 0px;
+    cursor: hand;
+    border: 0px;
+    background: #00758f;
+    border-radius: 7px;
+    color: white;
+    font-size: 13px;
+}
+#mypage-trigger:hover{
+	background:#21b6b3;
+	cursor:pointer;
+}
