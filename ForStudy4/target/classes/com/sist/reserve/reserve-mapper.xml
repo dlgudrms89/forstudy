@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sist.reserve.reserve-mapper">
+  <select id="reserveAdminAllData" resultType="Reserve">
+    SELECT * FROM ac_reserve
+    ORDER BY no DESC
+  </select>
+  <select id="reserveUserAllData" resultType="Reserve" parameterType="String">
+    SELECT * FROM ac_reserve
+    WHERE id=#{id}
+  </select>
+  <update id="reserveCheckUpdate" parameterType="int">
+    UPDATE ac_reserve SET
+    reserve_check=1
+    WHERE no=#{no}
+  </update>
+  <insert id="reserveInsert" parameterType="Reserve">
+    <selectKey keyProperty="no" resultType="int" order="BEFORE">
+      SELECT NVL(MAX(no)+1,1) as no FROM ac_reserve
+    </selectKey>
+    INSERT INTO ac_reserve VALUES(#{no},#{id},
+      #{ac_name},#{ac_class},#{ac_tel},#{day},#{price},0)
+  </insert>
+</mapper>
+
+
+
+
+
+
+
